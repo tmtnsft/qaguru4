@@ -3,12 +3,11 @@ package guru.qa4;
    public class Cat {
 
          String name;
-         int age;
          float weight;
          boolean isActive;
 
          public void introduceUrself() {
-            System.out.println("Meow, i'm "+ name +", i'm "+ age +", i weight "+ weight +" kg");
+            System.out.println("Meow, i'm "+ name +", i weight "+ weight +" kg");
          }
 
          public void areUHungry() {
@@ -28,7 +27,6 @@ package guru.qa4;
       public static void main(String[] args) {
          Cat wonky = new Cat();
          wonky.name = "Wonky";
-         wonky.age = 10;
          wonky.weight = 4;
          wonky.isActive = true;
 
